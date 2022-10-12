@@ -1,8 +1,44 @@
+/* Ffont-family */
+@font-face{
+    /* NOMBRE */
+    font-family: "TrebuchetMS";
+    /* DIRECTORIO DE FUENTE */
+    src: url('fonts/TrebuchetMS.ttf');
+    /* peso y estilo de la fuente */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    /* NOMBRE */
+    font-family: "BebasNeue";
+    /* DIRECTORIO DE FUENTE */
+    src: url('fonts/BebasNeue.otf');
+    /* peso y estilo de la fuente */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "WebSymbolsRegular";
+    src: url('fonts/websymbols-regular-webfont.eot');
+    /* formato para diferentes navegadores */
+    src: url('fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/websymbols-regular-webfont.woff') format('woff'),
+         url('fonts/websymbols-regular-webfont.ttf') format('truetype'),
+         url('fonts/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{
     margin: 0px;
     margin: 0px;
 }
 
-#header{
-    /* background-color: black; */
+/* header */
+
+/* TUERCA */
+.gear{
+    font-family: 'WebSymbolsRegular';
 }
