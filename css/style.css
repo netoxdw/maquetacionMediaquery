@@ -273,3 +273,38 @@ aside h3:first-child{
     0px -3px 2px rgba(0, 0, 0, 0.3);
 }
 
+#login input[type="email"],
+#login input[type="password"]{
+    display: block;
+    margin: 0px auto;
+    margin-top: 20px;
+    padding-left: 30px;
+    width: 85%;
+    height: 30px;
+    border: 1pz solid #ccc;
+    box-shadow: 1px 1px 1px #ccc inset;
+    border-radius: 5px;
+
+}
+
+#login input[type="email"]:focus,
+#login input[type="password"]:focus{
+    color: #555;
+    box-shadow: 1px 1px 1px gray inset;
+}
+
+#login #user,
+#login #password{
+    display: block;
+    text-align: center;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 6px;
+    height: 30px;
+}
+
+#login #password{
+    margin-left: 10px;
+    margin-top: 25px;
+    font-size: 20px;
+}
