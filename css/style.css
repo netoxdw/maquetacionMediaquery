@@ -157,8 +157,8 @@ body{
 }
 
 /* tarejetas */
-
-
+/* Cada tarjeta cuenta con el mismo id card */
+/* todas las tarejtas seran iguales */
 #card{
     float: left;
     width: 205px;
@@ -171,11 +171,11 @@ body{
     margin-top: 40px;
     cursor: pointer;
 }
-
+/* Primer tarjeta dentro de cards */
 #card:last-child{
     margin-right: 0px;
 }
-
+/* icono de todas las tarjetas */
 #card .icon{
     display: block;
     width: 100%;
@@ -185,7 +185,7 @@ body{
     text-align: center;
     margin: 0px auto;
 }
-
+/* Cada categoria "desarrolo web", "soistemas", etc */
 #card .category{
     width: 100%;
     height: 50px;
@@ -195,7 +195,7 @@ body{
     text-align: center;
     color: #00538c;
 }
-
+/* desccribcion de cada curso */
 #card .description{
     font-family: "TrebuchetMS";
     text-align: center;
@@ -214,6 +214,7 @@ body{
     margin-right: 30px;
 }
 
+/* Todos los h3 de nuestra barra lateral */
 aside h3{
     display: block;
     width: auto;
@@ -228,11 +229,13 @@ aside h3{
     padding-left: 15px;
     margin: 30px 0px 15px 0px;
 }
-
+/* Solo el primer elemento h3 de barra lateral */
 aside h3:first-child{
     margin-top: 0px;
 }
 
+
+/* Caja de buscar, es diferente a las de login */
 #search{
     width: 90%;
     height: 30px;
@@ -243,6 +246,7 @@ aside h3:first-child{
     box-shadow: 1px 1px 4px #ccc inset;
 }
 
+/* Estilos a input text de buscar*/
 #lateral input[type="text"]{
     width: 83%;
     height: 30px;
@@ -257,7 +261,8 @@ aside h3:first-child{
     color: #555;
 }
 
-#lateral input[type="submit"],
+
+/* Estilos a input button de buscar */
 #lateral input[type="button"]{
     height: 30px;
     cursor: pointer;
@@ -269,6 +274,9 @@ aside h3:first-child{
     padding-left: 6px;
 }
 
+
+/* Estilos a cajas  */
+/* Cada caja contiene un tema "login" "social" y "patrocinadores" */
 .aside-box{
     width: 85%;
     height: 240px;
@@ -283,6 +291,9 @@ aside h3:first-child{
     0px -3px 2px rgba(0, 0, 0, 0.3);
 }
 
+
+/* Caja Login */
+/* Inputs de "email" y "password" */
 #login input[type="email"],
 #login input[type="password"]{
     display: block;
@@ -319,6 +330,8 @@ aside h3:first-child{
     font-size: 20px;
 }
 
+
+/* Botones azules "Entrar" y "Limpiar" */
 #login input[type="submit"],
 #login input[type="button"],
 #login input[type="reset"],
@@ -336,6 +349,7 @@ aside h3:first-child{
     font-size: 15px;
     font-family: "TrebuchetMS";
     font-weight: lighter;
+    margin-bottom: 20px;
     transition: all 300ms;
 }
 
@@ -344,4 +358,17 @@ aside h3:first-child{
 #login input[type="reset"]:hover,
 #login button:hover{
     box-shadow: 0px 0px 2px gray
+}
+
+#login a{
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 18px;
+    color: #555;
+}
+
+#login a:hover{
+    text-decoration: underline;
+    color: #2f78bc;
 }
